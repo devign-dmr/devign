@@ -60,12 +60,13 @@
             font-size: 16px;
         }
     </style>
-    <script>
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
+
+    <script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function(event) {
+alert("Heyo");
+window.scrollTo(0,document.body.scrollHeight);
+});
+</script>
 </head>
 <body>
     <section class="page_404">
