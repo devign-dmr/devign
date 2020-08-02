@@ -2,6 +2,22 @@ html {
     scroll-behavior: smooth;
 }
 
+
+@font-face{
+    font-family: "hp_simplified";
+    src: url("../fonts/hp_simplified.eot"); /* IE9*/
+    src: url("../fonts/hp_simplified.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/hp_simplified.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/hp_simplified.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/hp_simplified.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/hp_simplified.svg#HP Simplified") format("svg"); /* iOS 4.1- */
+}
+
+
+.font {
+    font-family:"hp_simplified" !important;
+}
+
 .container {
     position: relative;
     width: 100%;
