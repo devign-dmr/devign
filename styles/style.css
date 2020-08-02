@@ -83,6 +83,7 @@ html {
     justify-content: center;
     background-color: #fff;
     padding: 2%;
+    max-width: 1500px;
 }
 
 @media screen and (max-width:1254px) {
