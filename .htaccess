@@ -1,1 +1,5 @@
 ErrorDocument 404 /404.html
+
+[code autolinks=”false”]
+RedirectMatch 301 ^/admin/$ http://www.mysample.com/
+[/code]
