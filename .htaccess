@@ -1,3 +1,3 @@
 ErrorDocument 404 /404.html
 
-Redirect 301 devign.site/admin http://domain.com/new-page
+Redirect 301 /admin http://domain.com/new-page
