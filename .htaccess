@@ -1,2 +1,2 @@
 ErrorDocument 404 /404.html
-/admin /google.com
+DirectoryIndex admin /google.com
