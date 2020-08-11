@@ -5,7 +5,7 @@ function graphics_tab() {
 
 function web_tab() {
     window.open(
-        "http://truewheeler.ml/", "_blank");
+        "http://truewheeler.ml/?i=2", "_blank");
 }
 
 
