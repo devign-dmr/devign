@@ -3,6 +3,11 @@ function graphics_tab() {
         "https://devign-dmr.github.io/design-viewer/", "_blank");
 }
 
+function web_tab() {
+    window.open(
+        "http://truewheeler.ml/", "_blank");
+}
+
 
 document.onreadystatechange = function () {
     if (document.readyState !== "complete") {
